@@ -24,5 +24,6 @@ The following table lists the configurable parameters of the eventrouter chart a
 | `nodeSelector`          | Node labels for pod assignment                                                                                              | `{}`                               |
 | `sink`                  | Sink to send the events to                                                                                                  | `glog`                             |
 | `podAnnotations`        | Annotations for pod metadata                                                                                                | `{}`                               |
+| `podLabels`             | Labels for all metadata (ClusterRole, Deployment, etc.)                                                                     | `{}`                               |
 | `containerPorts`        | List of ports for the container                                                                                             | `[]`                               |
 | `securityContext`       | Security context for the pod                                                                                                | `{}`                               |
